@@ -1,2 +1,0 @@
-# vampython
-ftvugfvytu
