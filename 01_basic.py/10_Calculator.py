@@ -1,7 +1,7 @@
 n = int(input("Enter the first Number : "))
 operator = input("Enter the operation (+,-,*,/) : ")
 n2 = int(input("Enter the Second Number : "))
- 
+
 if(operator == "+"):
     print(n+n2)
 elif(operator == "-"):
@@ -11,4 +11,4 @@ elif(operator == "*"):
 elif(operator == "/"):
     print(n/n2)
 else:
-    print(operator,"is not vailed for the calculation ")
+    print(operator,"is not allowed for the calculation ")
