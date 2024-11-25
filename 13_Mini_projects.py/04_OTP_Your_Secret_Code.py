@@ -6,3 +6,5 @@ password = ""
 for i in range(pass_len):
     password += random.choice(char_value)
 print(f"So your password is {password}")
+
+

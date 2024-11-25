@@ -1,4 +1,4 @@
-                    # Some keypoints  
+                    # Some key points 
 """
 r == read
 a == append(add some data)
@@ -26,7 +26,7 @@ w+ == clear the data +read(not working because there is not data) + overwrite
 
 '''-----------------Create file :- Syntax-----------------'''
 
-# variable_Name :- open("filename.ectension","filemode")
+# variable_Name :- open("filename.extension","filemode")
 # example :  
 # myLaptopPassword = open("myLaptopPassword.txt","w") 
 

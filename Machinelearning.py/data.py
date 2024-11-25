@@ -1,8 +1,17 @@
-import numpy as np
+# import numpy as np
+# data = np.random.uniform(0,10,o)
+# print(data)
+# plt.hist(data)
+# plt.show()
+# # normal and uniform data 
+# # plt.uniform(data)
+
+age = [20,25,45,30,50,40]
+salary = [20000,25000,45000,30000,50000,40000]
 import matplotlib.pyplot as plt
-data = np.random.uniform(0,10,100)
-print(data)
-plt.hist(data)
+plt.scatter(age,salary)
 plt.show()
-# normal and uniform data 
-# plt.uniform(data)
+plt.xlabel("age")
+plt.ylabel("salary")
+
+

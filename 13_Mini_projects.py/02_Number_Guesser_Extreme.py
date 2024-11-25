@@ -6,7 +6,7 @@ print("Choose the between (1,100)")
 while True:
         you = int(input("Enter the number  : "))
         if(computer == you):
-            print("You Guss the CORRECT Number! ")
+            print("You Guess the CORRECT Number! ")
             print("---------Game Over---------")
             break
         elif(computer < you):
