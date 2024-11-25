@@ -7,7 +7,6 @@ db = client["college_db"]
 # # --------------------------Define collections--------------------------------
 students_collection = db["students"]
 courses_collection = db["courses"]
-faculty_collection = db["faculty"]
 counter_collection = db["counter"]
 
 # Initialize the counter if it doesn't exist
