@@ -35,7 +35,7 @@ def add_student():
 # # --------------------------Function to view all students--------------------------
 def view_students():
     for student in students_collection.find():
-        print(f"Name: {student['name']}, Roll Number: {student['roll_number']}, Course: {student['course']}")
+        print(f"\nName: {student['name']}, Roll Number: {student['roll_number']}, Course: {student['course']}")
 
 # # --------------------------Function to search for a student-----------------------
 def search_student():
